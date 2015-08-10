@@ -162,7 +162,7 @@ Uinf = 0.00
 
 #BC_fun_Bottom, BC_A_Bottom = BC.getRhoBc([1,0], 1., Uinf)
 #BC_fun_Top, BC_A_Top = BC.getRhoBc([-1,0], 1., Uinf)
-BC_fun_Top, BC_A_Top = BC.getUBc([1,0], 0., 0.0001)
+BC_fun_Top, BC_A_Top = BC.getUBc([1,0], 0., 0.000)
 BC_fun_Bottom, BC_A_Bottom = BC.getUBc([-1,0], 0., Uinf)
 
 print BC_A_Bottom.shape
