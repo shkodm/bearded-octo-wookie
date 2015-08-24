@@ -22,8 +22,6 @@ def assign(ro,col,dat,val,*args):
 def on_boundary(i,bwize,n,h):
     if (((abs(height(i % n,n,h)) == bwize) and (abs(height(i // n,n,h))<= bwize))
             or (abs(height(i // n,n,h)) == bwize and abs(height(i % n,n,h)) < bwize)):
-                return 1==1
-    else: return 1==2
 def height(i,n,h):
     return ((n - 1.)/2. - i)*h
 def visualise(Z,n,h):
